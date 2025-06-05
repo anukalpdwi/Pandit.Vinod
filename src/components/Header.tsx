@@ -52,7 +52,11 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <OmSymbol className="h-8 w-8 text-[#FFD700]" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9iwpcQHh1kQzGZFai2d-1BzrGfDCOugNrMiAehZPb_XODOsDx8FdNwMwYltL20fH-byI&usqp=CAU"
+              alt="Pandit Vinod Guruji Logo"
+              className="h-10 w-10 rounded-full object-cover"
+            />
             <span className="ml-2 text-xl font-semibold text-white">Pandit Vinod Guruji</span>
           </a>
           
