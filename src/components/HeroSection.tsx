@@ -63,6 +63,14 @@ const HeroSection: React.FC = () => {
             >
               {t('hero.cta2')}
             </a>
+
+             <a 
+              href="https://www.youtube.com/@Trimbakeshwar" 
+              className="inline-block bg-[#ffffff] hover:bg-[#E6C300] text-[#990000] font-bold py-3 px-8 rounded-full shadow-lg transition-all transform hover:scale-105 hover:shadow-xl ml-4"
+            >
+              {t('hero.cta3')}
+            </a>
+
           </div>
           
           <div className="w-24 h-1 bg-[#FFD700] mx-auto mt-12"></div>

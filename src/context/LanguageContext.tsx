@@ -28,6 +28,7 @@ export const translations = {
     'hero.subheading': '30+ Years of Experience in Traditional Vedic Rituals',
     'hero.cta': 'Book Now',
     'hero.cta2': '📞 Call Now',
+    'hero.cta3': 'Youtube',
     
     // Services Section
     'services.title': 'Our Specialized Puja Services',
@@ -124,7 +125,8 @@ export const translations = {
     'hero.headline': 'प्रामाणिक त्र्यंबकेश्वर मंदिर पूजा सेवाएं',
     'hero.subheading': 'पारंपरिक वैदिक अनुष्ठानों में 30+ वर्षों का अनुभव',
     'hero.cta': 'पूजा परामर्श बुक करें',
-     'hero.cta2': '📞 कॉल करें',
+    'hero.cta2': '📞 कॉल करें',
+    'hero.cta3': 'Youtube',
     
     // Services Section
     'services.title': 'हमारी विशेष पूजा सेवाएं',

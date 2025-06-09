@@ -28,12 +28,21 @@ const Gallery: React.FC = () => {
   ];
   
   const photos = [
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqL6Ngg-B5SCXnD-n9NjAksXFSlDrAzUtOn6nZcX8M4Szqj7AQlA6g6wpvQWQkp0_ESAE&usqp=CAU',
-    'https://thetrimbakeshwar.in/wp-content/uploads/2025/03/pitra-dosh-puja-trimbakeshwar-1024x576.webp',
-    'https://www.kalsarpayog.com/images/type/mryutyunjay-2.jpg',
-    'https://panditjiujjain.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-02-16-at-10.22.27-AM.jpeg',
-    'https://panditjiujjain.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-02-16-at-10.22.22-AM.jpeg',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbZL6w7TAqEIltAC4pyv7xHW9Rk-AGxP7jtbynEwNAir1QPq4LWViE-CjtAy-x_CrBNww&usqp=CAU'
+    '/1.jpg',
+    '/2.jpg',
+    '/3.jpg',
+    '/4.jpg',
+    '/5.jpg',
+    '/6.jpg',
+    '/7.jpg',
+    '/8.jpg',
+    '/9.jpg',
+    '/10.jpg',
+    '/11.jpg',
+    '/12.jpg',
+    '/13.jpg',
+    '/14.jpg',
+    '/15.jpg'
   ];
   
   const openVideo = (youtubeId: string) => {
