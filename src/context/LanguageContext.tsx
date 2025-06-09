@@ -70,9 +70,9 @@ export const translations = {
     'service.rahuketu.benefits': 'Benefits: Reduces negative planetary effects',
     
     // About Section
-    'about.title': 'About Pandit Vinod Guruji',
+    'about.title': 'About Pandit Shivraj Shastri',
     'about.subtitle': 'A Life Dedicated to Vedic Traditions',
-    'about.bio': 'Pandit Vinod Guruji has been serving at the sacred Trimbakeshwar Temple for over 30 years. With profound knowledge of Vedic scriptures and rituals, he has guided thousands of devotees through spiritual ceremonies. His expertise in traditional pujas, especially for resolving planetary doshas and ancestral issues, has earned him respect across India and internationally.',
+    'about.bio': 'Pandit Shivraj Shastri has been serving at the sacred Trimbakeshwar Temple for over 30 years. With profound knowledge of Vedic scriptures and rituals, he has guided thousands of devotees through spiritual ceremonies. His expertise in traditional pujas, especially for resolving planetary doshas and ancestral issues, has earned him respect across India and internationally.',
     'about.experience': '30+ Years Experience',
     'about.clients': '10,000+ Satisfied Clients',
     'about.ceremonies': '5,000+ Ceremonies Performed',
@@ -81,7 +81,7 @@ export const translations = {
     'testimonials.title': 'Client Testimonials',
     'testimonial.1.name': 'Rajesh Sharma',
     'testimonial.1.location': 'Mumbai',
-    'testimonial.1.text': 'After performing Kaal Sarp Dosh Nivaran Puja with Pandit Vinod Guruji, many obstacles in my business and personal life were resolved. His authentic approach and deep knowledge make all the difference.',
+    'testimonial.1.text': 'After performing Kaal Sarp Dosh Nivaran Puja with Pandit Shivraj Shastri, many obstacles in my business and personal life were resolved. His authentic approach and deep knowledge make all the difference.',
     
     'testimonial.2.name': 'Priya Patel',
     'testimonial.2.location': 'Ahmedabad',
@@ -89,7 +89,7 @@ export const translations = {
     
     'testimonial.3.name': 'Vikram Singh',
     'testimonial.3.location': 'Delhi',
-    'testimonial.3.text': 'Pandit Vinod Guruji\'s Rudra Abhishek ceremony was conducted with utmost devotion and authenticity. We felt the positive energy immediately afterward.',
+    'testimonial.3.text': "Pandit Shivraj Shastri's Rudra Abhishek ceremony was conducted with utmost devotion and authenticity. We felt the positive energy immediately afterward.",
     
     // Gallery Section
     'gallery.title': 'Media Gallery',

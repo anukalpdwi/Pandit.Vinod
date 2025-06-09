@@ -54,10 +54,10 @@ const Header: React.FC = () => {
           <a href="#" className="flex items-center">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9iwpcQHh1kQzGZFai2d-1BzrGfDCOugNrMiAehZPb_XODOsDx8FdNwMwYltL20fH-byI&usqp=CAU"
-              alt="Pandit Vinod Guruji Logo"
+              alt="Pandit Shivraj Shastri Logo"
               className="h-10 w-10 rounded-full object-cover"
             />
-            <span className="ml-2 text-xl font-semibold text-white">Pandit Vinod Guruji</span>
+            <span className="ml-2 text-xl font-semibold text-white">Pandit Shivraj Shastri</span>
           </a>
           
           {/* Desktop Navigation */}
