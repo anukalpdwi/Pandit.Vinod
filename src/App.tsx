@@ -12,7 +12,7 @@ import FloatingButtons from './components/FloatingButtons';
 function App() {
   // Set document title
   React.useEffect(() => {
-    document.title = 'Pandit Vinod Guruji - Trimbakeshwar Puja Services';
+    document.title = 'Pandit Shivraj Guruji - Trimbakeshwar Puja Services';
   }, []);
 
   return (
