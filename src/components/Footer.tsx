@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <OmSymbol className="h-8 w-8 text-[#FFD700]" />
-              <span className="ml-2 text-xl font-semibold">Pandit Vinod Guruji</span>
+              <span className="ml-2 text-xl font-semibold">Pandit Shivraj Shastri</span>
             </div>
             <p className="text-gray-300 mb-4">
               {t('footer.address')}
