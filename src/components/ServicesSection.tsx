@@ -7,17 +7,17 @@ interface ServiceCardProps {
   duration: string;
   requirements: string;
   benefits: string;
-  icon: React.ReactNode;
+  image: string;
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ 
-  title, description, duration, requirements, benefits, icon 
+  title, description, duration, requirements, benefits, image 
 }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl border-t-4 border-[#990000]">
       <div className="p-6">
-        <div className="w-16 h-16 rounded-full bg-[#FFF9E6] flex items-center justify-center mb-4 mx-auto">
-          {icon}
+        <div className="w-20 h-20 rounded-full bg-[#FFF9E6] flex items-center justify-center mb-4 mx-auto overflow-hidden">
+          <img src={image} alt={title} className="object-cover w-full h-full" />
         </div>
         <h3 className="text-xl font-semibold text-[#990000] mb-3 text-center">{title}</h3>
         <p className="text-gray-700 mb-4">{description}</p>
@@ -42,7 +42,7 @@ const ServicesSection: React.FC = () => {
       duration: t('service.kaalsarp.duration'),
       requirements: t('service.kaalsarp.requirements'),
       benefits: t('service.kaalsarp.benefits'),
-      icon: <span className="text-3xl">🐍</span>
+      image: '/kaalsarp.jpeg'
     },
     {
       title: t('service.nagbali.title'),
@@ -50,7 +50,7 @@ const ServicesSection: React.FC = () => {
       duration: t('service.nagbali.duration'),
       requirements: t('service.nagbali.requirements'),
       benefits: t('service.nagbali.benefits'),
-      icon: <span className="text-3xl">🔱</span>
+      image: 'https://narayannagbalitrimbakeshwar.com/wp-content/uploads/2023/03/home.png'
     },
     {
       title: t('service.rudra.title'),
@@ -58,7 +58,7 @@ const ServicesSection: React.FC = () => {
       duration: t('service.rudra.duration'),
       requirements: t('service.rudra.requirements'),
       benefits: t('service.rudra.benefits'),
-      icon: <span className="text-3xl">🕉️</span>
+      image: 'https://temple.yatradham.org/public/Product/puja-rituals/puja-rituals_SGpKqH4Y_202404181504220.jpg'
     },
     {
       title: t('service.pitra.title'),
@@ -66,7 +66,7 @@ const ServicesSection: React.FC = () => {
       duration: t('service.pitra.duration'),
       requirements: t('service.pitra.requirements'),
       benefits: t('service.pitra.benefits'),
-      icon: <span className="text-3xl">🙏</span>
+      image: 'https://thetrimbakeshwar.in/wp-content/uploads/2025/03/pitra-dosh-puja-trimbakeshwar-1024x576.webp'
     },
     {
       title: t('service.mrityunjay.title'),
@@ -74,7 +74,7 @@ const ServicesSection: React.FC = () => {
       duration: t('service.mrityunjay.duration'),
       requirements: t('service.mrityunjay.requirements'),
       benefits: t('service.mrityunjay.benefits'),
-      icon: <span className="text-3xl">✨</span>
+      image: '/mahamrityunjay.jpeg'
     },
     {
       title: t('service.rahuketu.title'),
@@ -82,7 +82,7 @@ const ServicesSection: React.FC = () => {
       duration: t('service.rahuketu.duration'),
       requirements: t('service.rahuketu.requirements'),
       benefits: t('service.rahuketu.benefits'),
-      icon: <span className="text-3xl">☯️</span>
+      image: '/rahuketu.jpeg'
     },
   ];
   
@@ -108,7 +108,7 @@ const ServicesSection: React.FC = () => {
               duration={service.duration}
               requirements={service.requirements}
               benefits={service.benefits}
-              icon={service.icon}
+              image={service.image}
             />
           ))}
         </div>

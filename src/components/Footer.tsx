@@ -137,7 +137,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-700 pt-8 mt-8">
           <div className="flex flex-col md:flex-row md:justify-between items-center">
             <p className="text-sm text-gray-400 mb-4 md:mb-0">
-              &copy; {currentYear} Pandit Vinod Guruji. {t('footer.rights')}
+              &copy; {currentYear} Pandit Shivraj Shastri. {t('footer.rights')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-sm text-gray-400 hover:text-[#FFD700] transition-colors">

@@ -53,7 +53,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <a href="#" className="flex items-center">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9iwpcQHh1kQzGZFai2d-1BzrGfDCOugNrMiAehZPb_XODOsDx8FdNwMwYltL20fH-byI&usqp=CAU"
+              src="/8.jpg "
               alt="Pandit Shivraj Shastri Logo"
               className="h-10 w-10 rounded-full object-cover"
             />
