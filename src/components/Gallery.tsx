@@ -34,12 +34,12 @@ const Gallery: React.FC = () => {
     '/4.jpg',
     '/5.jpg',
     '/6.jpg',
-    '/7.jpg',
-    '/8.jpg',
-    '/9.jpg',
-    '/13.jpg',
-    '/14.jpg',
-    '/15.jpg'
+    // '/7.jpg',
+    // '/8.jpg',
+    // '/9.jpg',
+    // '/13.jpg',
+    // '/14.jpg',
+    // '/15.jpg'
   ];
   
   const openVideo = (youtubeId: string) => {

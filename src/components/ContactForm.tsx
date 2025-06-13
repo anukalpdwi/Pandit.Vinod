@@ -64,7 +64,7 @@ const ContactForm: React.FC = () => {
           <div className="md:flex">
             {/* Contact Information */}
             <div className="md:w-1/3 bg-[#990000] text-white p-8">
-              <h3 className="text-2xl font-semibold mb-6">Pandit Vinod Guruji</h3>
+              <h3 className="text-2xl font-semibold mb-6">Pandit Shivraj Shastri</h3>
               <div className="mb-6">
                 <p className="mb-2">Trimbakeshwar Temple,</p>
                 <p className="mb-2">Nashik, Maharashtra</p>
@@ -83,19 +83,19 @@ const ContactForm: React.FC = () => {
                 >
                   YouTube
                 </a>
-                <a 
+                {/* <a 
                   href="https://www.instagram.com/trimbakeshwar_click" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-block text-white hover:text-[#FFD700] transition-colors"
                 >
                   Instagram
-                </a>
+                </a> */}
               </div>
             </div>
             
             {/* Contact Form */}
-            <div className="md:w-2/3 p-8">
+            {/* <div className="md:w-2/3 p-8">
               {formStatus && (
                 <div className={`mb-6 p-4 rounded-lg ${formStatus.success ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
                   {formStatus.message}
@@ -170,7 +170,7 @@ const ContactForm: React.FC = () => {
                   {t('contact.form.submit')}
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

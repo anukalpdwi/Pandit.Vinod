@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-import OmSymbol from './icons/OmSymbol';
-
 const Header: React.FC = () => {
   const { language, setLanguage, t } = useLanguage();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,7 +43,7 @@ const Header: React.FC = () => {
   return (
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-[#990000]/95 shadow-md py-2' : 'bg-transparent py-4'
+        scrolled ? 'bg-[#ff7b4b]/95 shadow-md py-2' : 'bg-transparent py-4'
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

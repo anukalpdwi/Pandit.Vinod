@@ -60,7 +60,7 @@ const AboutSection: React.FC = () => {
         </div>
         
         {/* Testimonials Section */}
-        <div className="mt-24">
+        {/* <div className="mt-24">
           <div className="text-center mb-16">
             <div className="w-16 h-1 bg-[#990000] mx-auto mb-4"></div>
             <h2 className="text-3xl font-bold text-[#990000]">{t('testimonials.title')}</h2>
@@ -85,7 +85,7 @@ const AboutSection: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

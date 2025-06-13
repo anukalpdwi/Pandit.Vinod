@@ -22,11 +22,17 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         <h3 className="text-xl font-semibold text-[#990000] mb-3 text-center">{title}</h3>
         <p className="text-gray-700 mb-4">{description}</p>
         
-        <div className="bg-[#FFF9E6] p-4 rounded-lg">
+        <div className="bg-[#FFF9E6] p-4 rounded-lg mb-4">
           <p className="text-sm text-gray-800 mb-1"><strong>{duration}</strong></p>
           <p className="text-sm text-gray-800 mb-1"><strong>{requirements}</strong></p>
           <p className="text-sm text-gray-800"><strong>{benefits}</strong></p>
         </div>
+        <a
+          href="tel:+919171029981"
+          className="block w-full text-center bg-[#FFD700] hover:bg-[#E6C300] text-[#990000] font-bold py-2 px-4 rounded-full transition-all"
+        >
+          Book Now
+        </a>
       </div>
     </div>
   );
@@ -90,8 +96,8 @@ const ServicesSection: React.FC = () => {
     <section id="services" className="py-20 bg-[#FFF9E6]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="w-16 h-1 bg-[#990000] mx-auto mb-4"></div>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#990000] mb-4">
+          <div className="w-16 h-1 bg-[#ffb06a] mx-auto mb-4"></div>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#ffb06a] mb-4">
             {t('services.title')}
           </h2>
           <p className="text-gray-700">
