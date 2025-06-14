@@ -59,13 +59,13 @@ export const translations = {
     
     'service.mrityunjay.title': 'Maha Mrityunjay Jaap',
     'service.mrityunjay.description': 'Powerful mantra ritual for health, longevity and protection.',
-    'service.mrityunjay.duration': 'Duration: 2-3 hours',
+    'service.mrityunjay.duration': 'Duration: 6-7 hours',
     'service.mrityunjay.requirements': 'Requirements: Personal details',
     'service.mrityunjay.benefits': 'Benefits: Health, longevity, protection from accidents',
     
     'service.rahuketu.title': 'Rahu Ketu Jaap',
     'service.rahuketu.description': 'Special ritual to mitigate the negative effects of Rahu and Ketu.',
-    'service.rahuketu.duration': 'Duration: 2 hours',
+    'service.rahuketu.duration': 'Duration: 5 hours',
     'service.rahuketu.requirements': 'Requirements: Horoscope',
     'service.rahuketu.benefits': 'Benefits: Reduces negative planetary effects',
     
@@ -157,13 +157,13 @@ export const translations = {
     
     'service.mrityunjay.title': 'महा मृत्युंजय जाप',
     'service.mrityunjay.description': 'स्वास्थ्य, दीर्घायु और सुरक्षा के लिए शक्तिशाली मंत्र अनुष्ठान।',
-    'service.mrityunjay.duration': 'अवधि: 2-3 घंटे',
+    'service.mrityunjay.duration': 'अवधि: 6-7 घंटे',
     'service.mrityunjay.requirements': 'आवश्यकताएं: व्यक्तिगत विवरण',
     'service.mrityunjay.benefits': 'लाभ: स्वास्थ्य, दीर्घायु, दुर्घटनाओं से सुरक्षा',
     
     'service.rahuketu.title': 'राहु केतु जाप',
     'service.rahuketu.description': 'राहु और केतु के नकारात्मक प्रभावों को कम करने के लिए विशेष अनुष्ठान।',
-    'service.rahuketu.duration': 'अवधि: 2 घंटे',
+    'service.rahuketu.duration': 'अवधि: 5 घंटे',
     'service.rahuketu.requirements': 'आवश्यकताएं: जन्मपत्रिका',
     'service.rahuketu.benefits': 'लाभ: नकारात्मक ग्रहीय प्रभावों को कम करता है',
     

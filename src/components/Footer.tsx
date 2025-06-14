@@ -113,10 +113,10 @@ const Footer: React.FC = () => {
               <p className="flex items-start">
                 <span className="mr-3">📧</span>
                 <a 
-                  href="mailto:info@trimbakeshwarpuja.com" 
+                  href="mailto:shivrajshastri09@gmail.com " 
                   className="text-gray-300 hover:text-[#FFD700] transition-colors"
                 >
-                  info@trimbakeshwarpuja.com
+                  shivrajshastri09@gmail.com 
                 </a>
               </p>
             </div>

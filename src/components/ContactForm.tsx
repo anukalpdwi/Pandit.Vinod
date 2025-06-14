@@ -72,7 +72,14 @@ const ContactForm: React.FC = () => {
               </div>
               <div className="mb-6">
                 <p className="mb-2">+91 91701029981</p>
-                <p>info@trimbakeshwarpuja.com</p>
+                <p>
+                  <a
+                    href="mailto:shivrajshastri09@gmail.com"
+                    className="underline hover:text-[#FFD700] transition-colors"
+                  >
+                    shivrajshastri09@gmail.com
+                  </a>
+                </p>
               </div>
               <div>
                 <a 

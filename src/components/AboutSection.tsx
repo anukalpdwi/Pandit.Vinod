@@ -29,7 +29,7 @@ const AboutSection: React.FC = () => {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-40 h-40 border-8 border-[#FFD700] rounded-full opacity-20 z-0"></div>
               <img 
-                src="https://apnayatra.com/wp-content/uploads/2023/07/Trimbakeshwar-Jyotirling1.jpg" 
+                src="bg about.jpeg" 
                 alt="Pandit Vinod Guruji" 
                 className="rounded-lg shadow-xl relative z-10 w-full h-auto object-cover"
               />
