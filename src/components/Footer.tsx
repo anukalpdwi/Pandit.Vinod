@@ -124,12 +124,12 @@ const Footer: React.FC = () => {
         </div>
         
         {/* Divider */}
-        <div className="border-t border-gray-700 pt-8 mt-8">
+        <div className="border-t border-black pt-8 mt-8">
           <div className="flex flex-col md:flex-row md:justify-between items-center">
-            <p className="text-sm text-gray-400 mb-4 md:mb-0">
+            <p className="text-sm text-white mb-4 md:mb-0">
               &copy; {currentYear} Pandit Shivraj Shastri. {t('footer.rights')}
             </p>
-            <div className="flex flex-col md:items-end text-sm text-gray-400">
+            <div className="flex flex-col md:items-end text-sm text-white">
               <span>
                 Developed by: <a href="tel:+919131883433" className="underline hover:text-[#FFD700]">Anukalp Dwivedi</a>
                 {" "} - The Goldenbird Tech <a href="https://www.goldenbirdtech.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#FFD700]">[goldenbirdtech.com]</a>
