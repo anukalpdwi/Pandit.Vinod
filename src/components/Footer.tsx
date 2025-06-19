@@ -129,13 +129,14 @@ const Footer: React.FC = () => {
             <p className="text-sm text-gray-400 mb-4 md:mb-0">
               &copy; {currentYear} Pandit Shivraj Shastri. {t('footer.rights')}
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-sm text-gray-400 hover:text-[#FFD700] transition-colors">
-                {t('footer.privacy')}
-              </a>
-              <a href="#" className="text-sm text-gray-400 hover:text-[#FFD700] transition-colors">
-                {t('footer.terms')}
-              </a>
+            <div className="flex flex-col md:items-end text-sm text-gray-400">
+              <span>
+                Developed by: <a href="tel:+919131883433" className="underline hover:text-[#FFD700]">Anukalp Dwivedi</a>
+                {" "} - The Goldenbird Tech <a href="https://www.goldenbirdtech.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#FFD700]">[goldenbirdtech.com]</a>
+              </span>
+              <span className="mt-1">
+                वेबसाइट बनाने और गूगल Ad चलाने के लिए हमसे संपर्क करें: <a href="tel:+919131883433" className="underline hover:text-[#FFD700]">+91 9131883433</a>
+              </span>
             </div>
           </div>
         </div>
